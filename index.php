@@ -30,9 +30,6 @@ class BitLibExample {
     //$_App->Router->AddSecurePath('~/Inventory');
     //$_App->Router->SetAuthPath('~/Home/Login');
 
-    /* @var \Bit0\Web\Router $router */
-    //$router = $_App->Route;
-    //$router->Route( 'SmartOrder' );
     $_App->Router->Route( 'BitLibExample' );
   }
 }
