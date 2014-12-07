@@ -11,8 +11,9 @@ namespace BitLibExample\Controllers {
 
   class HomeController extends \Bit0\Web\Controller {
     public function Index() {
-      $model = array();
-       return $this->View($model);
+      $model = $this->m_Model;
+
+      return $this->View( $model );
     }
   }
 }
