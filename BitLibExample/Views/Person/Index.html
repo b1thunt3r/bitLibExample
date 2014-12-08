@@ -1,0 +1,14 @@
+{% extends 'Shared/Index.html' %}
+
+{% block Content %}
+  <div class="starter-template">
+    <h1>List of persons</h1>
+    <p class="lead">
+      <ul>
+        {% for Person in Persons %}
+          <li>{{ Person }}</li>
+        {% endfor %}
+      </ul>
+    </p>
+  </div>
+{% endblock %}

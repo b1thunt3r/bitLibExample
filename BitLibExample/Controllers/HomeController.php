@@ -9,7 +9,7 @@
 namespace BitLibExample\Controllers {
 
 
-  class HomeController extends \Bit0\Web\Controller {
+  class HomeController extends \BitLibExample\Business\ControllerBase{
     public function Index() {
       $model = $this->m_Model;
 
